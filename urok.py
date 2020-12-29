@@ -18,16 +18,16 @@
 
 
 #stroka=input('Строка')
-#asd = []
+#lst = []
 #i=0
 
 #while i<len(stroka):
     #if i %2 == 0:
-        #asd.append(stroka[i].upper())
+        #lst.append(stroka[i].upper())
     #else:
-        #asd.append(stroka[i].lower())
+        #lst.append(stroka[i].lower())
     #i += 1
-#print(''.join(map(str,asd)))
+#print(''.join(map(str,lst)))
 
 
 #или такой не известно
