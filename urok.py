@@ -40,6 +40,17 @@
     #else:
         #print(stroka[i].lower())
     #i += 1
+i=0
+stroka = input("вести: ")
+
+lesenka = ''
+while i < len(stroka):
+    if i % 2 ==0:
+        lesenka = lesenka + stroka[i].lower()
+    else:
+        lesenka= lesenka + stroka[i].upper()
+    i += 1
+print(lesenka)
 
 
 
